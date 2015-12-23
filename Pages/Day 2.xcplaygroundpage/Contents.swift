@@ -54,7 +54,7 @@ func calculateMaterialsRequired(length l: Int, width w: Int, height h: Int) -> (
   return (wrappingPaperSqft, ribbonLength)
 }
 
-let input = NBFileManager.shared.loadStringInputFromResource("day2-quick")
+let input = NBFileManager.shared.loadStringInputFromResource("day2") // use "day2-quick" for development
 var dimensions = input.characters.split { $0 == "\n" }.map(String.init)
 var totalFeetOfRibbon = 0
 var totalSqftOfPaper = 0
