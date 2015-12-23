@@ -1,4 +1,4 @@
-//: [Table of Contents](@previous)
+//: [Table of Contents](Table of Contents)
 
 /*:
 

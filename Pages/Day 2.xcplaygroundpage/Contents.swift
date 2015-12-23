@@ -1,4 +1,4 @@
-//: [Table of Contents](@previous)
+//: [Table of Contents](Table of Contents)
 
 /*:
 
@@ -30,7 +30,7 @@ For example:
 
 How many total feet of ribbon should they order?
 
-[Table of Contents](Table of Contents) | [Continue to Day 2](@next)
+[Table of Contents](Table of Contents) | [Continue to Day 3](@next)
 */
 
 import Foundation
