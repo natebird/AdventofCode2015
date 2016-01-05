@@ -52,10 +52,10 @@ struct SantaMapPoint {
   
   mutating func move(direction: Character) -> String {
     switch direction {
-    case "^": y++
-    case ">": x++
-    case "v": y--
-    case "<": x--
+    case "^": y += 1
+    case ">": x += 1
+    case "v": y -= 1
+    case "<": x -= 1
     default: break
     }
     return "\(x), \(y)"

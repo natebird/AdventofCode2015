@@ -49,9 +49,9 @@ func findFloor(instructions: String) -> Int {
   
   for c in input.characters {
     if c == "(" {
-      floor++
+      floor += 1
     } else if c == ")" {
-      floor--
+      floor -= 1
     }
   }
   return floor
@@ -63,14 +63,14 @@ func findBasementStep(instructions: String) -> Int {
   
   for c in input.characters {
     if c == "(" {
-      floor++
+      floor += 1
     } else if c == ")" {
-      floor--
+      floor -= 1
     }
     if floor == -1 {
       break
     }
-    steps++
+    steps += 1
   }
   return steps
 }
